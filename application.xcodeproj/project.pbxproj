@@ -13,6 +13,8 @@
 		B9143CB01AB1A31F006BB536 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9143CAF1AB1A31F006BB536 /* Images.xcassets */; };
 		B9143CB31AB1A31F006BB536 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9143CB11AB1A31F006BB536 /* LaunchScreen.xib */; };
 		B9143CBF1AB1A31F006BB536 /* applicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9143CBE1AB1A31F006BB536 /* applicationTests.swift */; };
+		B9143CC91AB1B8EC006BB536 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9143CC81AB1B8EC006BB536 /* TableViewController.swift */; };
+		B9143CCB1AB1BD6B006BB536 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9143CCA1AB1BD6B006BB536 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		B9143CB81AB1A31F006BB536 /* applicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = applicationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9143CBD1AB1A31F006BB536 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B9143CBE1AB1A31F006BB536 /* applicationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = applicationTests.swift; sourceTree = "<group>"; };
+		B9143CC81AB1B8EC006BB536 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		B9143CCA1AB1BD6B006BB536 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 				B9143CA81AB1A31E006BB536 /* AppDelegate.swift */,
 				B9143CAA1AB1A31E006BB536 /* ViewController.swift */,
 				B9143CAC1AB1A31E006BB536 /* Main.storyboard */,
+				B9143CCA1AB1BD6B006BB536 /* TableViewCell.swift */,
+				B9143CC81AB1B8EC006BB536 /* TableViewController.swift */,
 				B9143CAF1AB1A31F006BB536 /* Images.xcassets */,
 				B9143CB11AB1A31F006BB536 /* LaunchScreen.xib */,
 				B9143CA61AB1A31E006BB536 /* Supporting Files */,
@@ -213,6 +219,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9143CAB1AB1A31E006BB536 /* ViewController.swift in Sources */,
+				B9143CCB1AB1BD6B006BB536 /* TableViewCell.swift in Sources */,
+				B9143CC91AB1B8EC006BB536 /* TableViewController.swift in Sources */,
 				B9143CA91AB1A31E006BB536 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
